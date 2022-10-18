@@ -1,0 +1,25 @@
+[ {
+  "codigo" : 5,
+  "livro" : {
+    "codigo" : 4,
+    "titulo" : "Nuvens de prata",
+    "autor" : {
+      "nome" : "Cristovão",
+      "nacionalidade" : "Britânico",
+      "sobreNome" : "Marques"
+    }
+  },
+  "dataaquisicao" : [ 2022, 10, 18 ]
+}, {
+  "codigo" : 5,
+  "livro" : {
+    "codigo" : 5,
+    "titulo" : "Arcos",
+    "autor" : {
+      "nome" : "Debora",
+      "nacionalidade" : "brasileira",
+      "sobreNome" : "alecrim"
+    }
+  },
+  "dataaquisicao" : [ 2022, 10, 18 ]
+} ]

@@ -1,0 +1,19 @@
+[  {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 18 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 2 ],
+  "dataDevolucao" : null,
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 5,
+      "titulo" : "Arcos",
+      "autor" : {
+        "nome" : "Debora",
+        "nacionalidade" : "brasileira",
+        "sobreNome" : "alecrim"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 18 ]
+  }
+} ]

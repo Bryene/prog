@@ -1,0 +1,17 @@
+[ {
+  "codigo" : 4,
+  "titulo" : "Nuvens de prata",
+  "autor" : {
+    "nome" : "Cristovão",
+    "nacionalidade" : "Britânico",
+    "sobreNome" : "Marques"
+  }
+}, {
+  "codigo" : 5,
+  "titulo" : "Arcos",
+  "autor" : {
+    "nome" : "Debora",
+    "nacionalidade" : "brasileira",
+    "sobreNome" : "alecrim"
+  }
+} ]

@@ -1,0 +1,15 @@
+[ {
+  "codigo" : 1,
+  "nome" : "Mário monteiro",
+  "endereco" : "Rua teste teste",
+  "telefone" : "22 98122343489",
+  "prazoMaximoDevolucao" : 30,
+  "disciplina" : "Ciências"
+}, {
+  "codigo" : 1,
+  "nome" : "Arthur",
+  "endereco" : "teste",
+  "telefone" : "teste",
+  "prazoMaximoDevolucao" : 30,
+  "disciplina" : "teste"
+} ]
