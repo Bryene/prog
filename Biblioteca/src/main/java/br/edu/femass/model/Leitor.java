@@ -67,7 +67,7 @@ public class Leitor {
     }
     public boolean equals(Object obj) {
         Leitor leitor = (Leitor) obj;
-        return this.prazoMaximoDevolucao.equals(leitor.getPrazoMaximoDevolucao());
+        return leitor.getCodigo().equals(this.codigo);
     }
 
     public String toString() {

@@ -1,19 +1,76 @@
-[  {
+[ {
   "LocalDate" : null,
-  "dataEmprestimo" : [ 2022, 10, 18 ],
-  "dataPrevistaDevolucao" : [ 2022, 11, 2 ],
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 3 ],
   "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 2,
+    "nome" : "Bia",
+    "endereco" : "Av",
+    "telefone" : "22 2222 2222",
+    "prazoMaximoDevolucao" : 15
+  },
   "exemplar" : {
     "codigo" : 5,
     "livro" : {
-      "codigo" : 5,
-      "titulo" : "Arcos",
+      "codigo" : 8,
+      "titulo" : "Aguas de março",
       "autor" : {
-        "nome" : "Debora",
-        "nacionalidade" : "brasileira",
-        "sobreNome" : "alecrim"
+        "nome" : "angelo",
+        "nacionalidade" : "portugal",
+        "sobreNome" : "marins"
       }
     },
-    "dataaquisicao" : [ 2022, 10, 18 ]
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 3 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 2,
+    "nome" : "Bia",
+    "endereco" : "Av",
+    "telefone" : "22 2222 2222",
+    "prazoMaximoDevolucao" : 15
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 9,
+      "titulo" : "Águas de Março",
+      "autor" : {
+        "nome" : "Angelo",
+        "nacionalidade" : "Brasileiro",
+        "sobreNome" : "Reis"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 18 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 1,
+    "nome" : "tt",
+    "endereco" : "t",
+    "telefone" : "t",
+    "prazoMaximoDevolucao" : 30
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 10,
+      "titulo" : "t",
+      "autor" : {
+        "nome" : "t",
+        "nacionalidade" : "t",
+        "sobreNome" : "t"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
   }
 } ]

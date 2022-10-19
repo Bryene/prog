@@ -11,7 +11,7 @@ class AlunoTest {
     void setPrazoMaximoDevolucao() {
         Integer esperado = 15;
         Aluno aluno = new Aluno("Maria","Rua Francisco de Assis",
-                "22 98123 8456", "23344567");
+                "22 98123 8456", "2334456");
         Assertions.assertEquals(esperado, aluno.getPrazoMaximoDevolucao());
 
 
@@ -20,7 +20,7 @@ class AlunoTest {
     @Test
     void getMatricula() {
         Aluno aluno = new Aluno("Maria","Rua Francisco de Assis",
-                "22 98123 8456","23344567"
+                "22 98123 8456","2334456"
         );
         String esperado = "2334456";
         Assertions.assertEquals(esperado, aluno.getMatricula());

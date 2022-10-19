@@ -1,15 +1,9 @@
-[ {
-  "codigo" : 2,
-  "nome" : "aline",
-  "endereco" : "rua gonçalves dias",
-  "telefone" : "22 2 225-6455",
-  "prazoMaximoDevolucao" : 15,
-  "matricula" : "12345"
-}, {
-  "codigo" : 3,
-  "nome" : "Marta",
-  "endereco" : "av atlântico",
-  "telefone" : "22 3456 3456",
-  "prazoMaximoDevolucao" : 15,
-  "matricula" : "12345"
-} ]
+[
+  {
+    "codigo": 2,
+    "nome": "Bia",
+    "endereco": "Av",
+    "telefone": "22 2222 2222",
+    "prazoMaximoDevolucao": 15,
+    "matricula": "2345"
+  } ]

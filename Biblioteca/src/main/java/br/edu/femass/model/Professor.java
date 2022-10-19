@@ -3,6 +3,7 @@ import br.edu.femass.dao.DaoLeitor;
 import br.edu.femass.dao.DaoProfessor;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Professor extends Leitor {
 
@@ -40,5 +41,12 @@ public class Professor extends Leitor {
             throw new RuntimeException(e);
         }
     }
-
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Professor professor = (Professor) o;
+        return Objects.equals(disciplina, professor.disciplina);
+    }
 }

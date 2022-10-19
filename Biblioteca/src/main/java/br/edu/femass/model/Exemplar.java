@@ -8,26 +8,23 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 public class Exemplar {
-
     private Long codigo;
     private LocalDate data;
     private static Long proximoC = 5L;
-    private Livro livro;
 
-
+    protected List<Livro> livros = new ArrayList<>();
+    private Leitor leitor;
     public Exemplar(LocalDate data, Livro livro) {
-        this.livro = livro;
+       this.livro = livro;
+        this.leitor = leitor;
         this.data= LocalDate.now(Clock.systemDefaultZone());
         this.codigo = proximoC;
         proximoC++;
     }
 
     public Exemplar() {
-
     }
-
 
     public Long getCodigo() {
         return codigo;
@@ -36,15 +33,16 @@ public class Exemplar {
     public void setCodigo(Long codigo) {
         this.codigo = codigo;
     }
-
     public LocalDate getdataaquisicao() {
         return data;
     }
-
     public void setdataaquisicao(LocalDate data) {
         this.data= data;
+
     }
 
+    //passando as informações de livro para o emprestimo
+    Livro livro;
     public Livro getLivro() {
         return livro;
     }
@@ -55,9 +53,9 @@ public class Exemplar {
 
     @Override
     public String toString() {
-        return  + getCodigo()+ " || " + this.getLivro().getTitulo()+
+        return  "Cod: "+ getCodigo()+ " || " + getLivro() +
                 " || " +
-                "Data de Aquisição: " + this.data;
+                "Data de Aquisição: " + this.data.toString() ;
     }
 
 }

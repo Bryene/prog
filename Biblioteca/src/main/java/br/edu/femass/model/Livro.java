@@ -17,6 +17,7 @@ public class Livro {
 
     }
 
+    private List<Autor> autores = new ArrayList<>();
     public Livro(String titulo, Autor autor) {
         this.titulo = titulo;
         this.autor = autor;
@@ -30,7 +31,6 @@ public class Livro {
     }
 
     public void setCodigo(Long codigo) {
-
         this.codigo = codigo;
     }
 
@@ -63,8 +63,7 @@ public class Livro {
 
     public String toString() {
 
-        return "Titulo do livro: " + this.titulo +
-                " || "  + getAutor();
+        return "Titulo do livro: " + this.titulo;
     }
 
 }
