@@ -73,4 +73,196 @@
     },
     "dataaquisicao" : [ 2022, 10, 19 ]
   }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 18 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 1,
+    "nome" : "Ingrid",
+    "endereco" : " Av teixeira",
+    "telefone" : "22 981222267",
+    "prazoMaximoDevolucao" : 30
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 9,
+      "titulo" : "Águas de Março",
+      "autor" : {
+        "nome" : "Angelo",
+        "nacionalidade" : "Brasileiro",
+        "sobreNome" : "Reis"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 3 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 2,
+    "nome" : "Bia",
+    "endereco" : "Av",
+    "telefone" : "22 2222 2222",
+    "prazoMaximoDevolucao" : 15
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 9,
+      "titulo" : "Águas de Março",
+      "autor" : {
+        "nome" : "Angelo",
+        "nacionalidade" : "Brasileiro",
+        "sobreNome" : "Reis"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 3 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 2,
+    "nome" : "Bia",
+    "endereco" : "Av",
+    "telefone" : "22 2222 2222",
+    "prazoMaximoDevolucao" : 15
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 8,
+      "titulo" : "Aguas de março",
+      "autor" : {
+        "nome" : "angelo",
+        "nacionalidade" : "portugal",
+        "sobreNome" : "marins"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 19 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 3 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 2,
+    "nome" : "Bia",
+    "endereco" : "Av",
+    "telefone" : "22 2222 2222",
+    "prazoMaximoDevolucao" : 15
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 8,
+      "titulo" : "Aguas de março",
+      "autor" : {
+        "nome" : "angelo",
+        "nacionalidade" : "portugal",
+        "sobreNome" : "marins"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 24 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 8 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 2,
+    "nome" : "Bia",
+    "endereco" : "Av",
+    "telefone" : "22 2222 2222",
+    "prazoMaximoDevolucao" : 15
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 10,
+      "titulo" : "t",
+      "autor" : {
+        "nome" : "t",
+        "nacionalidade" : "t",
+        "sobreNome" : "t"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 24 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 23 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 1,
+    "nome" : "Ingrid",
+    "endereco" : " Av teixeira",
+    "telefone" : "22 981222267",
+    "prazoMaximoDevolucao" : 30
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 10,
+      "titulo" : "t",
+      "autor" : {
+        "nome" : "t",
+        "nacionalidade" : "t",
+        "sobreNome" : "t"
+      }
+    },
+    "dataaquisicao" : [ 2022, 10, 19 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 24 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 23 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 1,
+    "nome" : "Francisco",
+    "endereco" : "Av",
+    "telefone" : "xx xxxxx xxxx",
+    "prazoMaximoDevolucao" : 30
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 10,
+      "titulo" : "Mapas",
+      "autor" : null
+    },
+    "dataaquisicao" : [ 2022, 10, 24 ]
+  }
+}, {
+  "LocalDate" : null,
+  "dataEmprestimo" : [ 2022, 10, 24 ],
+  "dataPrevistaDevolucao" : [ 2022, 11, 23 ],
+  "dataDevolucao" : null,
+  "leitor" : {
+    "codigo" : 1,
+    "nome" : "Francisco",
+    "endereco" : "Av",
+    "telefone" : "xx xxxxx xxxx",
+    "prazoMaximoDevolucao" : 30
+  },
+  "exemplar" : {
+    "codigo" : 5,
+    "livro" : {
+      "codigo" : 10,
+      "titulo" : "Mapas",
+      "autor" : null
+    },
+    "dataaquisicao" : [ 2022, 10, 24 ]
+  }
 } ]

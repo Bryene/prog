@@ -10,6 +10,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,6 +19,7 @@ public class GuiEmprestimo {
     private JList lstemprestimo;
     private JButton btnEMPRESTIMO;
     private JList lstleitor;
+    private JList lstExemplar;
 
 
     public JPanel getJPanel() {
@@ -26,20 +28,21 @@ public class GuiEmprestimo {
 
     public GuiEmprestimo() {
 
-        updateList();
+        updateleitores();
+        updateexemplares();
 
         btnEMPRESTIMO.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
+                    Emprestimo emprestimo = new Emprestimo((Exemplar) lstemprestimo.getSelectedValue(), (Leitor) lstleitor.getSelectedValue());
                     Leitor leitor = (Leitor) lstleitor.getSelectedValue();
                     Exemplar exemplar = (Exemplar) lstemprestimo.getSelectedValue();
-                    Emprestimo emprestimo = new Emprestimo(exemplar, leitor);
                     new DaoEmprestimo().save(emprestimo);
-                    JOptionPane.showMessageDialog(null, "Realizado");
                 } catch (Exception ex) {
                     throw new RuntimeException(ex);
                 }
+                JOptionPane.showMessageDialog(null, "Realizado");
             }
         });
         lstemprestimo.addListSelectionListener(new ListSelectionListener() {
@@ -58,19 +61,27 @@ public class GuiEmprestimo {
             }
         });
     }
-
-    private void updateList() {
+    public  void  updateleitores(){
+        try{
+            List<Aluno> alunos = new  DaoAluno().getAll();
+            List<Professor> professores = new  DaoProfessor().getAll();
+            List<Leitor> leitores = new  ArrayList <>();
+            leitores.addAll( alunos );
+            leitores.addAll( professores );
+            this.lstleitor.setListData (leitores.toArray ());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    private void updateexemplares() {
         try {
-            List<Leitor> leitores = new ArrayList<>();
-            List<Professor> professores = new DaoProfessor().getAll();
             List<Exemplar> exemplares = new DaoExemplar().getAll();
-            List<Aluno> alunos = new DaoAluno().getAll();
-            leitores.addAll(alunos);
-            leitores.addAll(professores);
             this.lstemprestimo.setListData(exemplares.toArray());
-            this.lstleitor.setListData(leitores.toArray());
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
 }
+
+
+

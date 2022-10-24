@@ -1,4 +1,4 @@
-[  {
+[ {
   "codigo" : 5,
   "livro" : {
     "codigo" : 9,
@@ -22,4 +22,12 @@
     }
   },
   "dataaquisicao" : [ 2022, 10, 19 ]
+}, {
+  "codigo" : 5,
+  "livro" : {
+    "codigo" : 10,
+    "titulo" : "Mapas",
+    "autor" : null
+  },
+  "dataaquisicao" : [ 2022, 10, 24 ]
 } ]

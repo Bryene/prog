@@ -8,8 +8,6 @@ import java.time.LocalDateTime;
 import java.util.List;
 public class EmprestimoTest {
 
-
-
     @Test
     void Emprestimo() {
         Emprestimo emprestimo= new Emprestimo();
